@@ -1,2 +1,2 @@
 # PasswordBasedHashing
-Examples of PBKDF2/password based hashing
+Implementation and examples of PBKDF2/password based hashing
