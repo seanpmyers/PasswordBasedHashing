@@ -1,4 +1,4 @@
-pub (crate) trait IHashEncryptionService{  
+pub trait IHashEncryptionService{  
    const SALT_SIZE: i32; 
    const KEY_SIZE: i32;
    fn new() -> Self;

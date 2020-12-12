@@ -1,6 +1,6 @@
 use crate::ihash_encryption_service::IHashEncryptionService;
 
-pub struct HashEncryptionService;
+pub struct HashEncryptionService();
 
 impl IHashEncryptionService for HashEncryptionService {
    const SALT_SIZE: i32 = 16; 

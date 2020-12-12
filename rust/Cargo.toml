@@ -1,5 +1,5 @@
 [package]
-name = "naesBackend"
+name = "naes_backend"
 version = "0.1.0"
 authors = ["Sean Myers <spmyers@protonmail.com>"]
 edition = "2018"
