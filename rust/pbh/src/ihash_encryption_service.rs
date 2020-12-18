@@ -21,8 +21,8 @@ pub type HashResult = Result<String, HashError>;
 pub type HashCheckResult = Result<(bool, bool), HashError>;
 
 pub trait IHashEncryptionService{  
-   const SALT_SIZE: u8; 
-   const KEY_SIZE: u8;
+   const SALT_SIZE: usize; 
+   const KEY_SIZE: usize;
    fn new() -> Self;
    fn hash(input: &str) -> HashResult;
    fn check(hash: &str, input: &str) -> HashCheckResult;
